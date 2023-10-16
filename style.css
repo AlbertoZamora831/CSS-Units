@@ -1,0 +1,55 @@
+/* First step --> customize parent */
+.parent {
+    width: 135px;
+    border: 3px solid black;
+}
+
+/* Second step --> customize percent and pixels */
+.fifty-percent {
+    width: 50%;
+    background-color: forestgreen;
+    border: 2px solid forestgreen;
+    margin: 1%;
+}
+
+.one-hundred-pixels {
+    width: 100px;
+    background-color: fuchsia;
+    border: 2px solid fuchsia;
+    margin: 1%;
+}
+
+/* Third step --> customize vw & vh */
+.fifty-vw {
+    width: 50vw;
+    background-color: aqua;
+    border: 2px solid aqua;
+}
+
+.twenty-five-vh {
+    height: 25vh;
+    border: 2px solid red;
+}
+
+/* Four step --> customize em & rem */
+.second-parent {
+    font-size: 30px;
+    border: 3px solid blueviolet;
+}
+
+.one-rem {
+    font-size: 1rem;
+
+}
+
+.one-em {
+    font-size: 1em;
+}
+
+.two-rem {
+    font-size: 2rem;
+}
+
+.two-em {
+    font-size: 2em;
+}
